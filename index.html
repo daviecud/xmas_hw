@@ -20,7 +20,7 @@
         <input type="text" id="name" required/>
         <label for="country" class="primary">Country</label>
         <input type="text" id="country" required/>
-        <label for="weight" class="primary">Weight</label>
+        <label for="weight" class="primary" required>Weight</label>
         <select id="weight">
           <option value="" disabled selected></option>
           <option value="Heavyweight" >Heavyweight</option>
@@ -35,26 +35,17 @@
 
   </div>
 
-    <label for="ratings" class="primary">Please choose rating for boxer:</label>
-    <input type="radio" name="radio" value="1" id="ratings"> 1
-    <input type="radio" name="radio" value="2" id="ratings">2
-    <input type="radio" name="radio" value="3" id="ratings">3
-    <input type="radio" name="radio" value="4" id="ratings">4
-    <input type="radio" name="radio" value="5" id="ratings">5
-    <input type="radio" name="radio" value="6" id="ratings">6
-    <input type="radio" name="radio" value="7" id="ratings">7
-    <input type="radio" name="radio" value="8" id="ratings">8
-    <input type="radio" name="radio" value="9" id="ratings">9
-    <input type="radio" name="radio" value="10" id="ratings">10
+    <label for="fav" class="form-item" required>Is this your favourite boxer:</label>
+    <input type="radio" name="radio" value="Yes" id="fav"> Yes
+    <input type="radio" name="radio" value="No" id="fav"> No
 
     <input id="submit-button" type="submit" name="" value="Save Boxer" />
-
 
   </form>
 
     <button id="deleteAllButton" >Delete All Boxers</button>
 </div>
-  <h2>List of Boxing Greats:</h2>
+  <h2>List of Boxing Greats</h2>
     <div id="boxing-greats">
 
     </div>

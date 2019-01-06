@@ -21,7 +21,7 @@ deleteButton.addEventListener('click', handleDeleteButton);
     const name = event.target.name.value;
     const country = event.target.country.value;
     const weight = event.target.weight.value;
-    const ratings =  event.target.ratings.value;
+    const fav =  event.target.fav.value;
 
     const boxers = document.querySelector('#boxing-greats');
 
@@ -29,18 +29,18 @@ deleteButton.addEventListener('click', handleDeleteButton);
     const namePara = addElement('p');
     const countryPara = addElement('p');
     const weightPara = addElement('p');
-    const ratingsPara = addElement('p');
+    const favPara = addElement('p');
 
 
     namePara.textContent = name;
     countryPara.textContent = country;
     weightPara.textContent = weight;
-    ratingsPara.textContent = `You have rated this boxer: ${ratings}`;
+    favPara.textContent = `Favourite Boxer ? ${fav}`;
 
     boxerList.appendChild(namePara);
     boxerList.appendChild(countryPara);
     boxerList.appendChild(weightPara);
-    boxerList.appendChild(ratingsPara);
+    boxerList.appendChild(favPara);
 
     boxers.appendChild(boxerList);
 

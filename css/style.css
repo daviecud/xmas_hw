@@ -2,21 +2,37 @@ body{
   font-family: 'ZCOOL QingKe HuangYou', cursive;
   color: red;
   letter-spacing: 1px;
-  background-color: black;
+  background-image: url('../images/boxing_greats.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: static;
 }
 
 #heading {
+  background-color: black;
+  color: red
+  width: 97%;
+  max-width: 960px;
+  margin: 20px auto;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding: 10px 10px 20px;
+  overflow: hidden;
+  border: 3px solid red;
   text-align: center;
-  color: red;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 h2 {
-  font-weight: normal;
+  font-weight: bolder;
   text-align: center;
+  color: #ffffff;
 }
 
 #wrapper {
+  background-color: black;
+  color: red
   width: 97%;
   max-width: 960px;
   margin: 20px auto;
@@ -30,9 +46,14 @@ h2 {
 .form-item {
   margin: 5px;
   padding: 10px;
+  font-size: 25px;
+  text-align: center;
 }
 
 #submit-button {
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  /* float: right; */
+  margin-left: 445px;
   background: red;
   margin-top: 8px;
   padding: 6px;
@@ -44,58 +65,18 @@ h2 {
 #submit-button:hover {
   background: #333;
 }
-/*
-#page-banner {
-  background: #eee;
-  padding: 10px 0;
-}
-
-#page-banner h1, #page-banner p {
-  width: 100%;
-  text-align: center;
-  margin: 10px 0;
-  color: #ffffff
-}
-
-#page-banner input {
-  width: 90%;
-  max-width: 300px;
-  margin: 2px auto;
-  display: block;
-  padding: 8px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  font-size: 16px;
-  color: #444;
-}
-/*
-#boxer-list, #add-boxer, #tabed-content {
-  margin: 30px;
-}
-
-#boxer-list ul, #tabbed-content ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-#boxer-list li {
-  padding: 20px;
-  border-left: 5px solid #ddd;
-  margin: 20px 10px;
-}
-
-#boxer-list li:hover {
-  border-color: #9361bf;
-} */
 
 #deleteAllButton {
-  float: left;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  float: right;
   background: red;
   margin-top: 8px;
   padding: 6px;
   border-radius: 4px;
   cursor: pointer;
   color: #ffffff;
+  margin: 15px;
+  padding: 15px;
 }
 
 #deleteAllButton:hover {
@@ -103,59 +84,20 @@ h2 {
 }
 
 #boxing-greats {
-  background-color: red;
-  color: black;
-  margin-left: 20px;
-}
-/* .add-boxer {
-
-  width: 400px;
-  margin: 0 auto;
-}
-
-.add-boxer input {
-  display: block;
-  margin: 20px 0;
-  padding: 10px;
-  border: 1px solid #ccc;
-  font-size: 16px;
-  border-radius: 4px 0 0 4px;
+  background-color: black;
+  color: red
+  width: 97%;
+  max-width: 960px;
+  margin: 20px auto;
+  border-radius: 6px;
   box-sizing: border-box;
-  width: 300px;
-  float: left;
+  padding: 10px 10px 20px;
+  overflow: hidden;
+  border: 3px solid red;
+  text-align: center;
+  font-weight: bolder;
 }
 
-.add-boxer button {
-  border: 1px solid #9361bf;
-  background: #9361bf;
-  padding: 10px 20px;
-  font-size: 13px;
-  display: inline-block;
-  margin: 0;
-  border-radius: 0 4px 4px 0;
-  cursor: pointer;
-  width: 100px;
-  float: left;
-  margin: 20px 0;
-  border-left: 0;
-  color: white;
+.primary {
+  margin-left: 8px;
 }
-
-.add-boxer button:hover {
-  background: red;
-}
-
-
-.add-boxer:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-.add-boxer #hide {
-  width: 30px;
-}
-
-.add-boxer label {
-  line-height: 52px;
-} */
