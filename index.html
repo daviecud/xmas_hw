@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Boxing Greats</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+    <script type="text/javascript" src="js/app.js"></script>
+  </head>
+  <body>
+
+  <h1 id="heading">Boxing Greats</h1>
+
+<div id="wrapper">
+
+  <form id="new-boxer-form">
+    <div id="form-wrapper">
+      <div class="form-item">
+        <label for="name" class="primary">Name</label>
+        <input type="text" id="name" required/>
+        <label for="country" class="primary">Country</label>
+        <input type="text" id="country" required/>
+        <label for="weight" class="primary">Weight</label>
+        <select id="weight">
+          <option value="" disabled selected></option>
+          <option value="Heavyweight" >Heavyweight</option>
+          <option value="Cruiserweight" >Cruiserweight</option>
+          <option value="Middleweight" >Middleweight</option>
+          <option value="Welterweight" >Welterweight</option>
+          <option value="Lightweight" >Lightweight</option>
+          <option value="Featherweight" >Featherweight</option>
+        </select>
+
+      </div>
+
+  </div>
+
+    <label for="ratings" class="primary">Please choose rating for boxer:</label>
+    <input type="radio" name="radio" value="1" id="ratings"> 1
+    <input type="radio" name="radio" value="2" id="ratings">2
+    <input type="radio" name="radio" value="3" id="ratings">3
+    <input type="radio" name="radio" value="4" id="ratings">4
+    <input type="radio" name="radio" value="5" id="ratings">5
+    <input type="radio" name="radio" value="6" id="ratings">6
+    <input type="radio" name="radio" value="7" id="ratings">7
+    <input type="radio" name="radio" value="8" id="ratings">8
+    <input type="radio" name="radio" value="9" id="ratings">9
+    <input type="radio" name="radio" value="10" id="ratings">10
+
+    <input id="submit-button" type="submit" name="" value="Save Boxer" />
+
+
+  </form>
+
+    <button id="deleteAllButton" >Delete All Boxers</button>
+</div>
+  <h2>List of Boxing Greats:</h2>
+    <div id="boxing-greats">
+
+    </div>
+  </body>
+</html>
